@@ -1,0 +1,156 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, .5)
+}
+
+h2 {
+  color: #000000;
+}
+
+a {
+  color: rgba(0, 0, 0, 8);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(250, 250, 250, .9);
+}
+
+#map {
+  display: block;
+  height: 100%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.myNav {
+  display: inline-block;
+}
+
+#footerContacts li {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#connect {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+#maptext,
+#education h2,
+#projects h2,
+#workExperience h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar {
+  background: transparent;
+}
+
+#nav {
+  padding-left: 0;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#biopic {
+  padding-top: 4%;
+}
+
+.project-entry,
+.work-entry {
+  padding: 0 20px 20px 20px;
+}
+
+.workDescription {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#projects p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bottom-line {
+  margin: auto;
+  padding-bottom: 5px;
+  border-top: 2px solid white;
+  width: 30%;
+}
+
+.date {
+  padding-top: 3px;
+}
+
+.ptitle {
+  padding-top: 5px;
+}
+
+#skills-h3 {
+  padding-top: 5%;
+  padding-bottom: 25px;
+}
+
+#welcome {
+  padding-top: 4%
+}
+
+.welcome-message {
+  padding: 4% 10% 0 10%;
+  line-height: 2;
+}
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
+  #biopic {
+    width: 60%;
+    height: auto;
+    padding-top: 4%;
+    margin-left: 20%;
+  }
+
+  #welcome {
+    width: 100%;
+  }
+
+  .welcome-message {
+    width: 80%;
+    margin-left: 11%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #nav {
+    padding-left: 10%;
+  }
+
+  .school {
+    padding-top: 20px;
+  }
+
+}
